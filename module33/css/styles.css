@@ -1,0 +1,137 @@
+body {
+  text-align: center;
+  background-color: dodgerblue;
+}
+
+.navbar {
+  background-color: #ffc333;
+  border-radius: 0;
+  border-bottom: 2px solid white;
+  min-height: 90px;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #d83082;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.navbar-brand h1 {
+  position: relative;
+  padding: 10px;
+  margin-top: 0;
+  color: black;
+  font-size: 45px;
+  font-family: 'Syncopate', sans-serif;
+}
+
+#nav-list a {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 17px;
+  color: white;
+}
+
+#nav-list a:hover {
+  background-color: #d83082;
+  color: white;
+}
+
+.icon-bar {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 0px;
+  margin: auto;
+  display: block;
+  vertical-align: middle;
+}
+
+ul > li {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  position: relative;
+}
+
+.main-content {
+  position: absolute;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: "Syncopate", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.row {
+  margin: auto;
+}
+section {
+  background-color: #a9cef9;
+  border: 3px solid black;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 15px auto 15px auto;
+}
+
+section div {
+  padding: 15px;
+  font-style: italic;
+}
+
+h4 {
+  margin: 10px auto auto auto;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  #collapsible-nav {
+    position: relative;
+    border-top: 2px solid white;
+    background-color: black;
+    width: 102%;
+    top: 20px;
+    left: -1px;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .navbar-brand h1 {
+    position: relative;
+    padding: 0;
+    margin-top: 10px;
+    color: black;
+    font-size: 40px;
+    font-family: 'Syncopate', sans-serif;
+  }
+}
+
+@media (max-width: 390px) {
+  .navbar-brand h1 {
+    position: relative;
+    padding: 0;
+    margin-top: 15px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Syncopate', sans-serif;
+  }
+
+
+}
